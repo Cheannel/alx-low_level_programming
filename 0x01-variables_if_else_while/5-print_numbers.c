@@ -1,17 +1,16 @@
 #include <stdio.h>
-#include <time.h>
 /**
  * main - entry point
  * Description: printing single digit numbers
- * Return: (0)
+ * Return: always 0
  */
 int main(void)
 {
-	int z;
+	int a;
 
-	for (z = '0'; z < 10; z++)
+	for (a = 0; a < 10; a++)
 	{
-		printf("%d", z);
+		printf("%d", a);
 	}
 	putchar('\n');
 	return (0);

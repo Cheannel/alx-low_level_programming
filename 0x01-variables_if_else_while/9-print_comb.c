@@ -2,16 +2,16 @@
 /**
  * main - main block
  * Description: printing combinations of single-digit numbers
- * Return: (0)
+ * Return: always 0
  */
 int main(void)
 {
-	int z;
+	int a;
 
-	for (z = 0; z <= 9; z++)
+	for (a = 0; a <= 9; a++)
 	{
-		putchar(z);
-		if (z == 9)
+		putchar(a);
+		if (a == 9)
 			continue;
 		{
 			putchar(',');

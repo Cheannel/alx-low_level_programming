@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
  * main - entry point
- * Direction: printing not all alphabet
- * Return: always 0 
+ * Description: printing not all alphabet
+ * Return: always 0
  */
 int main(void)
 {

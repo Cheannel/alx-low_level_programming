@@ -6,7 +6,7 @@
  */
 int main(void)
 {
-	int let;
+	char let;
 
 	for (let = 'z'; let >= 'a'; let++)
 	{

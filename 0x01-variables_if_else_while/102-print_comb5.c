@@ -2,17 +2,17 @@
 /**
  * main - entry point
  * Description: printing all combinations oftwo 2-digit numbers
- * Return: (0)
+ * Return: always 0
  */
 int main(void)
 {
 int x, y;
 
-for (x = '0'; x <= 98; x++)
+for (x = 0; x <= 98; x++)
 {
-	for (y = '1'; y <= 99; y++)
-		{
-			putchar((x / 10) + '0');
+	for (y = 1; y <= 99; y++)
+	{
+		putchar((x / 10) + '0');
 		putchar((x % 10) + '0');
 		putchar(' ');
 		putchar((y / 10) + '0');

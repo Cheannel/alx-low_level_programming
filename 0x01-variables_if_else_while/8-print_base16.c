@@ -2,7 +2,7 @@
 /**
  * main - entry point
  * Description: printing numbers of base 16
- * Return: (0)
+ * Return: Always 0
  */
 int main(void)
 {
@@ -13,10 +13,8 @@ int main(void)
 	{
 		putchar((x % 10) + '0');
 		for (y = 'a'; y <= 'f'; y++)
-		{
-			putchar(y);
+		putchar(y);
 		}
-	}
 		putchar('\n');
 		return (0);
 }

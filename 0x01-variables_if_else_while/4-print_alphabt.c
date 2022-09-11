@@ -2,11 +2,11 @@
 /**
  * main - entry point
  * Direction: printing not all alphabet
- * Return: (0)
+ * Return: always 0 
  */
 int main(void)
 {
-	int letter;
+	char letter;
 
 	for (letter = 'a'; letter = 'z'; letter++)
 	{
@@ -14,11 +14,8 @@ int main(void)
 		{
 			putchar(letter);
 		}
-		else
-		{
-		}
 		putchar('\n');
-			return (0);
+		return (0);
 	}
 }
 

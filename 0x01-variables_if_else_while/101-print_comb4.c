@@ -15,18 +15,15 @@ int main(void)
 			for (z = 2; z < 10; z++)
 			{
 				putchar((x % 10) + '0');
-			putchar((y % 10) + '0');
-			putchar((z % 10) + '0');
-			if (x == 7 && y == 8 && z == 9)
-				continue;
-			{
+				putchar((y % 10) + '0');
+				putchar((z % 10) + '0');
+				if (x == 7 && y == 8 && z == 9)
+					continue;
 				putchar(',');
-					putchar(' ');
+				putchar(' ');
 			}
-			}
+		}
 	}
-	}
-			putchar('\n');
-			return (0);
+	putchar('\n');
+	return (0);
 }
-

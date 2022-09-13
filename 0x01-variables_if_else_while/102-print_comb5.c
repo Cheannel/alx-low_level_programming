@@ -6,19 +6,19 @@
  */
 int main(void)
 {
-	int x, y;
+	int a, b;
 
-	for (x = 0; x <= 98; x++)
+	for (a = 0; a <= 98; a++)
 	{
-		for (y = 1; y <= 99; y++)
+		for (b = 1; b <= 99; b++)
 		{
-			putchar((x / 10) + '0');
-			putchar((x % 10) + '0');
+			putchar((a / 10) + '0');
+			putchar((a % 10) + '0');
 			putchar(' ');
-			putchar((y / 10) + '0');
-			putchar((y % 10) + '0');
+			putchar((b / 10) + '0');
+			putchar((b % 10) + '0');
 
-			if (x == 98 && y == 99)
+			if (a == 98 && b == 99)
 				continue;
 
 			putchar(',');

@@ -2,7 +2,7 @@
 /**
  * main - main block
  * Description: printing different combinations of 3 digits
- * Return: (0)
+ * Return: always 0
  */
 int main(void)
 {
@@ -20,7 +20,6 @@ int main(void)
 
 				if (a == 7 && b == 8 && c == 9)
 					continue;
-
 				putchar(',');
 				putchar(' ');
 			}

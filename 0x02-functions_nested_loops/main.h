@@ -4,7 +4,7 @@
  * file - main.h
  * Description: the prototypes of all the functions used in this project (0x02-functions_nested_loops) 
  */
-int _putchar(char c)
+int _putchar(char c);
 void print_alphabet(void);
 void print_alphabet_x10(void);
 int _islower(int c);

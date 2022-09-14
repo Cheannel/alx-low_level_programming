@@ -1,16 +1,21 @@
 #include <stdio.h>
 /**
  * main - entry point
- * Description: printing underscore putchar(_putchar)
+ * Description: printing underscore putchar(_putchar\n)
  * Return: always 0
  */
 int main(void)
 {
-	int _putchar;
+	char str[] = "_putchar\n";
+	int i = 0;
 
-	putchar(_putchar);
+	while (str[i] != '\0')
+	{
+		char c = str[i];
 
-	putchar('\n');
+		putchar(c);
+		i++;
+	}
 	return (0);
 }
 

@@ -6,6 +6,7 @@
  * used in this project(0x04-more_functions_nested_loops)
  */
 int _isupper(int c);
+int _putchar(int c);
 int _isdigit(int c);
 int mul(int a, int b);
 void print_numbers(void);

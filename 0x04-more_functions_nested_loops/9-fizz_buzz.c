@@ -1,12 +1,32 @@
 #include "main.h"
+#include <stdio.h>
 /**
- * fizz_buzz - main block
+ * main - main block
  * Description: a test
+ * Return: always 0
  */
 int main(void)
 {
 	int a;
+
 	for (a = 1; a <= 100; a++)
 	{
 		if (a % 3 == 0 && a % 5 == 0)
-			printf(FizzBuzz)
+			printf("FizzBuzz");
+		else if ((a % 3) == 0)
+			printf("Fizz");
+		else if ((a % 5) == 0)
+			printf("Bizz");
+		else
+			printf("%d", a);
+
+		if (a == 100)
+			continue;
+		printf(" ");
+
+	}
+	printf("\n");
+
+	return (0);
+
+}

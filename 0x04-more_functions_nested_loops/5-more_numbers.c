@@ -1,0 +1,20 @@
+#include "main.h"
+/**
+ * more_numbers - main block
+ * Description: prints 10 times from a number
+ */
+void more_numbers(void)
+{
+	int count, num;
+
+	for (count = 0; count <= 9; count++)
+	{
+		for (num = 0; num <= 14; num++)
+		{
+			if (num > 9)
+				_putchar((num / 10) + '0');
+				_putchar((num % 10) + '0');
+		}
+		_putchar('\n');
+	}
+}

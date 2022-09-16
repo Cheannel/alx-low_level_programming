@@ -2,6 +2,7 @@
 /**
  * more_numbers - main block
  * Description: prints 10 times from a number
+ * Return: void
  */
 void more_numbers(void)
 {

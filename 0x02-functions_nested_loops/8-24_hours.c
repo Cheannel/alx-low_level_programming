@@ -1,8 +1,10 @@
 #include "main.h"
+
 /**
  * jack_bauer - entry point
  * Description: printing every minute of jack_bauer
  */
+
 void jack_bauer(void)
 {
 	 int hr, mins;
@@ -17,8 +19,6 @@ void jack_bauer(void)
 			 _putchar((mins / 10) + '0');
 			 _putchar((mins % 10) + '0');
 			 _putchar('\n');
-			 if (hr == 23 && mins == 59)
-				 continue;
 		 }
 	 }
 }

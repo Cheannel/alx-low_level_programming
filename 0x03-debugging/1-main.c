@@ -5,7 +5,7 @@
  */
 int main(void)
 {
-	int n;
+	int i;
 
 	printf("Infinite loop incoming :(\n");
 	i = 0;

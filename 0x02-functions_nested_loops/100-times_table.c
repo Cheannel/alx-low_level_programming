@@ -10,22 +10,18 @@ void print_times_table(int n)
 {
 	int num, a, b;
 
-	if (n >= 0 && n <= 15)
+	if (n >= 0 && n <= 14)
 	{
 		for (num = 0; num <= n; num++)
 		{
 			_putchar('0');
-			
 			for (a = 1; a <= n; a++)
 			{
 				_putchar(',');
 				_putchar(' ');
-				
 				b = num * a;
-				
 				if (b <= 99)
 					_putchar(' ');
-				
 				if (b <= 9)
 					_putchar(' ');
 				if (b >= 100)

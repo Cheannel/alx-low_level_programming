@@ -22,7 +22,7 @@ void print_times_table(int n)
 				b = num * a;
 				if (b <= 99)
 					_putchar(' ');
-				if (b <= 9)
+				if (b <= 10)
 					_putchar(' ');
 				if (b >= 100)
 				{

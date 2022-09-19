@@ -7,7 +7,7 @@
 int main(void)
 {
 	int count;
-	unsigned long a, b, sum;
+	unsigned long a = 0, b = 1, sum;
 	unsigned long f1, f2;
 	unsigned long a_f1, a_f2, b_f1, b_f2;
 

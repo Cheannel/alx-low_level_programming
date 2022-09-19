@@ -13,7 +13,7 @@ int main(void)
 	while (1)
 	{
 		sum = a + b;
-		if (sum < 4000000)
+		if (sum > 4000000)
 			break;
 
 		if ((sum % 2) == 0)
@@ -22,9 +22,7 @@ int main(void)
 		a = b;
 		b = sum;
 	}
-
 	printf("%.0f\n", tot_sum);
 
 	return (0);
-
 }

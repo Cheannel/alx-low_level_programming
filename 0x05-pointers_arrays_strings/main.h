@@ -6,6 +6,7 @@ Description: A header file containing all the prototpyes used in the project(0x0
 */
 
 
+int _putchar(char c);
 void reset_to_98(int *n);
 void swap_int(int *a, int *b);
 int _strlen(char *s);

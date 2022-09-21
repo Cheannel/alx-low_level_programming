@@ -4,7 +4,7 @@
  * description: a function that copies a string
  *@dest: the buffer
  *@src: string source
- *Return: dest
+ *Return:@dest
  */
 char *_strcpy(char *dest, char *src)
 {

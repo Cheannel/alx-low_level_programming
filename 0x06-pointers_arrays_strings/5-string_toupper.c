@@ -5,7 +5,7 @@
  * Description: a function that changes all lowercase
  * letters of a string to uppercase
  * @str: the string
- * Return: always 0
+ * Return: pointer to the string
  */
 char *string_toupper(char *str)
 {
@@ -16,6 +16,6 @@ char *string_toupper(char *str)
 		uppercase++;
 		str[uppercase] -= 32;
 	}
-	return (0);
+	return (str);
 }
 

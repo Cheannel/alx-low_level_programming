@@ -11,7 +11,7 @@ char *string_toupper(char *str)
 {
 	int uppercase = 0;
 
-	while (uppercase >= 'a' && uppercase <= 'z')
+	while (str[uppercase] >= 'a' && str[uppercase] <= 'z')
 	{
 		uppercase++;
 		str[uppercase] -= 32;

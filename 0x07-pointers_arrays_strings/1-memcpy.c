@@ -1,5 +1,4 @@
 #include "main.h"
-#include <string.h>
 /**
  * _memcpy - entry point
  * description: function copies 'n' bytes from memory
@@ -13,7 +12,7 @@ char *_memcpy(char *dest, char *src, unsigned int n)
 {
 	unsigned int index;
 
-	for (index = 0; n < index; index++)
+	for (index = 0; index < n; index++)
 	{
 		dest[index] = src[index];
 	}

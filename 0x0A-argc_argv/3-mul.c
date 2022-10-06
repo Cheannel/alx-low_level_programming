@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 /**
  * main - entry point
  * description: a program that multiplies two numbers
@@ -16,6 +17,8 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 		return (1);
 	}
+	x1 = atoi(argv[1]);
+	x2 = atoi(argv[2]);
 	prod = x1 * x2;
 
 	printf("%d\n", prod);

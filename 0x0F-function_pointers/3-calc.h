@@ -3,8 +3,22 @@
 
 /**
  * filename: 3-calc.h
- * description: a header file containing prototypes
+ * description: a header file containing all the function prototypes and
+ * data structures used by this program
  */
+
+/**
+ * struct op - Struct op
+ *
+ * @op: The operator
+ * @f: The function associated
+ */
+typedef struct op
+{
+    char *op;
+    int (*f)(int a, int b);
+} op_t;
+
 int op_add(int a, int b);
 int (*get_op_func(char *s))(int, int);
 int op_div(int a, int b);

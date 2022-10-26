@@ -2,7 +2,7 @@
 #define DOG_H
 
 /**
- * filename: dog.h
+ * filename - dog.h
  * description: a header file that defines a new type 'struct dog'
  */
 

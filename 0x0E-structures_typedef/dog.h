@@ -7,21 +7,21 @@
  */
 
 /**
- * struct dog - a new type defining a dog
+ * struct dog: entry point
+ * description: a new type defining a dog
  * @name: the name of the dog
  * @age: the age of the dog
  * @owner: the dog's owner
  */
 struct dog
 {
-	char * name;
-	char * owner;
+	char *name;
+	char *owner;
 	float age;
 };
 
 /**
- * dog_t - entry point
- * description: typedef for the struct dog
+ * dog_t - typedef for the struct dog
  */
 typedef struct dog dog_t;
 
